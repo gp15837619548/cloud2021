@@ -72,7 +72,7 @@ public class PaymentController {
         return serverPort;
     }
 
-    @GetMapping(value = "payment/feign/timeout")
+    @GetMapping(value = "/payment/feign/timeout")
     public String paymentFeignTimeOut() {
         try {
             TimeUnit.SECONDS.sleep(3);
