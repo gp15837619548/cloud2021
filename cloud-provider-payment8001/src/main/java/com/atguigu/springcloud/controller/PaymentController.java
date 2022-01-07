@@ -60,9 +60,14 @@ public class PaymentController {
         }
         List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PROVIDER-SERVICE");
         for (ServiceInstance instance : instances) {
-            log.info("******"+instance.getServiceId()+"*****"+instance.getHost()+"*****"
-            +instance.getPort()+"*****"+instance.getUri()+"*****");
+            log.info("******" + instance.getServiceId() + "*****" + instance.getHost() + "*****"
+                    + instance.getPort() + "*****" + instance.getUri() + "*****");
         }
         return this.discoveryClient;
+    }
+
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB() {
+        return serverPort;
     }
 }
