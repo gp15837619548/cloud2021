@@ -1,3 +1,6 @@
-F:\rc\svn\NewApp\2021\risen-zjsnbs-jcjf\cloud2021\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\config\ApplicationContextConfig.java
-F:\rc\svn\NewApp\2021\risen-zjsnbs-jcjf\cloud2021\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\controller\OrderController.java
-F:\rc\svn\NewApp\2021\risen-zjsnbs-jcjf\cloud2021\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\OrderMain80.java
+F:\code\code2021\cloud2021\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\controller\OrderController.java
+F:\code\code2021\cloud2021\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\lb\LoadBalancer.java
+F:\code\code2021\cloud2021\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\OrderMain80.java
+F:\code\code2021\cloud2021\cloud-consumer-order80\src\main\java\com\atguigu\myrule\MySelRule.java
+F:\code\code2021\cloud2021\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\config\ApplicationContextConfig.java
+F:\code\code2021\cloud2021\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\lb\impl\LoadBalancerImpl.java
